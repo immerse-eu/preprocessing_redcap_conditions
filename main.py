@@ -97,8 +97,8 @@ def gather_files(directory):
 
 def main():
     gather_files(path)
-    check_duplicates(path2, "record_id")  # Change to column_name when is required to check another column's file.
-    check_differences_dataframes(path1, path2)
+    check_duplicates(path2, "record_id")  # Optional method. Change to column_name when is required to check another column's file.
+    check_differences_dataframes(path1, path2)   # Optional method.
 
 
 if __name__ == '__main__':
